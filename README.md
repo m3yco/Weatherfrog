@@ -17,4 +17,4 @@ Then you go to the folder webapp and start the Jetty plugin
 ```bash
 mvn jetty:run
 ```
-Then you open the browser and enter the following URL http://localhost:8080/weatherfrog/start
+Then you open the browser and enter the following URL http://localhost:8080/webapp/start
