@@ -3,7 +3,7 @@ Weatherfrog is a Simple Weather Application with Java EE with a html output.
 
 To start the application, clone the git project
 ```bash
-git clone https://github.com/DonColon/Weatherfrog.git
+git clone https://github.com/m3yco/Weatherfrog.git
 ```
 Then you have to go into the folder Weatherfrog and build the project
 ```bash
