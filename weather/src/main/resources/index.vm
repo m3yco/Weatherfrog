@@ -1,0 +1,37 @@
+<!--
+Author: milazzdo
+Project URL: https://github.com/m3yco/Weatherfrog
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weatherfrog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-2.2.3.min.js"></script> 
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'><!--web font-->
+</head>
+<body>
+	<div class="main-info">
+		<h1>Weatherfrog</h1>
+		<div class="main"> 
+			<div class="info-text"> 
+				<h2>${weather.temp}<span>°</span></h2>
+				<h4>${weather.condition}</h4>
+				<h4>${weather.city}, ${weather.region}, ${weather.country}</h4>
+				<h5>${weather.timestamp}</h5> 
+				<h5>Sunrise: ${weather.sunrise} Sunset: ${weather.sunset}</h5> 
+				<h5>Humidity: ${weather.humidity} %</h5>
+				<h5>Wind Chill: ${weather.chill} °</h5> 
+				<h5>Wind Direction: ${weather.direction} </h5> 
+				<h5>Wind Speed: ${weather.speed} km/h</h5> 
+				<h5>Atmosphere Visibility: ${weather.visibility} km</h5>   
+			</div>
+		</div>	
+	</div>	
+	<div class="copy-rights">		 	
+		<p>© 2018 Weatherfrog. All Rights Reserved | Design by <a href="https://github.com/m3yco/Weatherfrog" target="_blank">milazzdo</a> </p>		 	
+	</div>
+</body>
+</html>

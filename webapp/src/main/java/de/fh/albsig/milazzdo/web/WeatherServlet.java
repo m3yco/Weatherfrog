@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
 
 import de.fh.albsig.milazzdo.model.Weather;
-import de.fh.albsig.milazzdo.weather;
+import de.fh.albsig.milazzdo.weather.WeatherService;;
 
 /**
  * Servlet implementation class WeatherServlet.
