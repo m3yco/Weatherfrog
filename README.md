@@ -5,6 +5,20 @@ To start the application, clone the git project
 ```bash
 git clone https://github.com/m3yco/Weatherfrog.git
 ```
+
+to configure your city uses the path and change the variable "city=[NAME]"
+
+```bash
+Weatherfrog\weatherfrog\webapp\src\main\java\de\fh\albsig\milazzdo\web\WeatherServlet.java
+```
+
+then add in the cities.properties file to your city
+
+```bash
+D:\GitHub\Weatherfrog\weatherfrog\weather\src\main\resources\cities.properties
+[NAME]=select * from weather.forecast where u \= 'c' and woeid in (select woeid from geo.places where text \= '[NAME]')
+```
+
 Then you have to go into the folder Weatherfrog and build the project
 ```bash
 mvn clean install
