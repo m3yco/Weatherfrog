@@ -15,7 +15,7 @@ Weatherfrog\weatherfrog\webapp\src\main\java\de\fh\albsig\milazzdo\web\WeatherSe
 then add in the cities.properties file to your city
 
 ```bash
-D:\GitHub\Weatherfrog\weatherfrog\weather\src\main\resources\cities.properties
+Weatherfrog\weatherfrog\weather\src\main\resources\cities.properties
 [NAME]=select * from weather.forecast where u \= 'c' and woeid in (select woeid from geo.places where text \= '[NAME]')
 ```
 
