@@ -94,7 +94,7 @@ public class WeatherApplicationTest {
 
     @Test
     void xmlTest() throws WeatherException {
-        String path = "src/test/java/de/hsalbsig/milazzdo/model/testXML.xml";
+        String path = "src/test/resources/testXML.xml";
         XMLCreator xml = new XMLCreator();
         xml.toXML(this.weather, path);
         assertNotNull(xml);
@@ -109,7 +109,7 @@ public class WeatherApplicationTest {
     @AfterAll
     void cleanUp() {
         File file = new File(
-                "src/test/java/de/hsalbsig/milazzdo/model/testXML.xml");
+                "src/test/resources/testXML.xml");
         file.delete();
     }
 }

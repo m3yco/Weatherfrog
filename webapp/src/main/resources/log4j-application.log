@@ -1,0 +1,8 @@
+2018-11-24 21:44:20 INFO  WeatherServlet:39 - #########################
+2018-11-24 21:44:20 INFO  WeatherServlet:40 - Start Weather Application
+2018-11-24 21:44:20 INFO  WeatherService:39 - Start Weather Service
+2018-11-24 21:44:20 INFO  WeatherRetriever:42 - Get Yahoo Weather API XML
+2018-11-24 21:44:22 INFO  WeatherParser:44 - Creating XML Reader
+2018-11-24 21:44:22 INFO  WeatherParser:48 - Parsing XML Response
+2018-11-24 21:44:22 INFO  XMLCreator:82 - Create Output XML
+2018-11-24 21:44:22 INFO  WeatherFormatter:39 - Formatting Weather Data

@@ -27,8 +27,9 @@ public class WeatherFormatter {
      * @param output
      *            which kind of handling xml or html.
      * @return String for the stream.
+     * @throws WeatherException
+     *             weather exception.
      */
-
     public String format(final Weather weather, final String output)
             throws WeatherException {
         Reader reader;

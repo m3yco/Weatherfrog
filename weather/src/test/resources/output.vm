@@ -1,0 +1,13 @@
+Weaatherfrog Application
+**************************************************************
+${weather.temp}°
+${weather.condition}
+${weather.city}, ${weather.region}, ${weather.country}
+${weather.timestamp}
+Sunrise: ${weather.sunrise} Sunset: ${weather.sunset}
+Humidity: ${weather.humidity} %
+Wind Chill: ${weather.chill} °
+Wind Direction: ${weather.direction}
+Wind Speed: ${weather.speed} km/h
+Atmosphere Visibility: ${weather.visibility} km
+**************************************************************

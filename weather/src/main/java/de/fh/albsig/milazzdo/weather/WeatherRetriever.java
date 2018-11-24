@@ -28,7 +28,10 @@ public class WeatherRetriever {
      * @return the url connection.
      * @throws IOException
      *             for input exception.
+     * @throws WeatherException
+     *             weather exception.
      */
+
     public InputStream retrieve(final String city)
             throws IOException, WeatherException {
         ResourceBundle bundle;

@@ -73,6 +73,8 @@ public class XMLCreator {
      *            object variable.
      * @param xmlFile
      *            xml path.
+     * @throws WeatherException
+     *             weather exception.
      */
     public final void toXML(final Weather w, final String xmlFile)
             throws WeatherException {
