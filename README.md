@@ -1,5 +1,5 @@
 # Weatherfrog
-Weatherfrog is a Simple Weather Application with Java EE with a html output.
+Weatherfrog is a Simple Weather Application with Java EE and a html output.
 
 To start the application, clone the git project
 ```bash
