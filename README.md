@@ -27,6 +27,12 @@ Then each module needs to be prepared for Eclipse with
 ```bash
 mvn eclipse:clean eclipse:eclipse
 ```
+
+When you have problems in Eclipse, then update the project
+```bash
+mvn clean install -U
+```
+
 Then you go to the folder webapp and start the Jetty plugin
 ```bash
 mvn jetty:run
