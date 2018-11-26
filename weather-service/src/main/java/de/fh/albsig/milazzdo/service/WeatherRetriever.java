@@ -1,4 +1,4 @@
-package de.fh.albsig.milazzdo.weather;
+package de.fh.albsig.milazzdo.service;
 
 import java.io.IOException;
 import java.io.InputStream;

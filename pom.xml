@@ -9,8 +9,8 @@
 
 	<modules>
 		<module>model</module>
-		<module>weather</module>
 		<module>webapp</module>
+		<module>weather-service</module>
 	</modules>
 
 	<name>Weatherfrog</name>
