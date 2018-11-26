@@ -11,7 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
 
 import de.fh.albsig.milazzdo.model.Weather;
-import de.fh.albsig.milazzdo.weather.WeatherService;;
+import de.fh.albsig.milazzdo.service.Service;
+import de.fh.albsig.milazzdo.service.WeatherService;
 
 /**
  * Servlet implementation class WeatherServlet.
@@ -39,7 +40,7 @@ public class WeatherServlet extends HttpServlet {
         log.info("#########################");
         log.info("Start Weather Application");
         final String city = "Albstadt";
-        WeatherService service = new WeatherService();
+        Service service = new WeatherService();
         PrintWriter out = response.getWriter();
         try {
             out.println(service.start(city));

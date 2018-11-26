@@ -8,7 +8,7 @@
 	</parent>
 	<artifactId>weather-service</artifactId>
 
-	<name>weather</name>
+	<name>weather-service</name>
 	<url>https://github.com/m3yco/Weatherfrog/tree/master/weather</url>
 
 	<organization>

@@ -12,17 +12,11 @@ import de.fh.albsig.milazzdo.model.Weatherfrog;
  * @author milazzdo
  *
  */
-public class WeatherService {
+public class WeatherService implements Service {
     /**
      * Logger for error documentation.
      */
     private static Logger log = Logger.getLogger(WeatherService.class);
-
-    /**
-     * default constructor.
-     */
-    public WeatherService() {
-    }
 
     /**
      * @param city
